@@ -8,6 +8,6 @@ createInstance.tf is terraform file which I have implemented to provison the EC2
 provider.tf contains information to interact with AWS
 variable .tf is file having variable used in createInstance.tf file
 
-Dockerfile has been developed to create an image of application and install othet dependencies.
+Dockerfile has been developed to create an image of application and install other dependencies.
 
 
