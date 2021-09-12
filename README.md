@@ -10,4 +10,4 @@ variable .tf is file having variable used in createInstance.tf file
 
 Dockerfile has been developed to create an image of application and install other dependencies.
 
-Docker Image has been placed at public repository Docker Hub.
+Docker Image has been publised at public repository Docker Hub.
