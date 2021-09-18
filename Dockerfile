@@ -1,4 +1,3 @@
-# For more information, please refer to https://aka.ms/vscode-docker-python
 FROM python:3.8-slim-buster
 
 RUN  sudo apt-get sudo update && apt-get install -y wget && sudo rm -rf /var/lib/apt/lists/*
@@ -11,6 +10,6 @@ WORKDIR /app
 
 RUN  pip install -r requirements.txt
 COPY . /app
-# Switching to a non-root user, please refer to https://aka.ms/vscode-docker-python-user-rights
+
 
 CMD [ "python","./main.py" ]
